@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar .active {
+  @apply text-blue-600 border-b border-blue-600 pb-2 font-semibold tracking-wide;
+}
+.navbar .inactive {
+  @apply hover:text-blue-600  hover:border-b border-blue-600 pb-2;
+}

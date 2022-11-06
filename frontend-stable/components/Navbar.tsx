@@ -7,7 +7,7 @@ import ActiveLink from "./ActiveLink";
 const arrLinks = [
   {
     name: "Dashboard",
-    href: "/",
+    href: "/dashboard",
   },
   {
     name: "Expense",
